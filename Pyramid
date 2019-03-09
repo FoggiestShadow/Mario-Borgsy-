@@ -1,19 +1,19 @@
 #include <stdio.h>
 #include <cs50.h>
 
-
+//This is voided out for public use
 int main(void)
 
 {
     int height;
-
+//Do While loop Start
     do
     {
         printf("Please specify a postive integer between 0 and 23: ");
         height = get_int();
     }
     while(height < 0 || height > 26);
-
+//Do while loop finished
 
     for (int line = 0; line < height; line++)
     {
